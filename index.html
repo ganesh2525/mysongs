@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <nav>
+        <ul>
+            <li class="brand"><img src="logo.png" alt="Spotify">Spotify</li>
+            <li>Home</li>
+            <li>About</li>
+        </ul>
+    </nav>
+    <div class="container">
+        <div class="songList">
+            <h2>Best of NCS - No Copyright Sounds</h2>
+            <div class="songItemContainer">
+                <div class="songItem">
+                    <img alt="1">
+                    <span class="songName">Chandra</span>
+                    <span class="songlistplay"><span class="timestamp">05:34<i id='0'
+                                class="far songItemPlay fa-regular fa-circle-play"></i></span></span>
+                </div>
+                <div class="songItem">
+                    <img alt="2">
+                    <span class="songName">Ghoomar</span>
+                    <span class="songlistplay"><span class="timestamp">05:34<i id='1'
+                                class="far songItemPlay fa-regular fa-circle-play"></i></span></span>
+                </div>
+                <div class="songItem">
+                    <img alt="3">
+                    <span class="songName">Param Sundari</span>
+                    <span class="songlistplay"><span class="timestamp">05:34<i id='2'
+                                class="far songItemPlay fa-regular fa-circle-play"></i></span></span>
+                </div>
+                <div class="songItem">
+                    <img alt="4">
+                    <span class="songName">Pinga</span>
+                    <span class="songlistplay"><span class="timestamp">05:34<i id='3'
+                                class="far songItemPlay fa-regular fa-circle-play"></i></span></span>
+                </div>
+                <div class="songItem">
+                    <img alt="5">
+                    <span class="songName">Senorita</span>
+                    <span class="songlistplay"><span class="timestamp">05:34<i id='4'
+                                class="far songItemPlay fa-regular fa-circle-play"></i></span></span>
+                </div>
+            </div>
+        </div>
+        <div class="songBanner"></div>
+    </div>
+    <div class="bottom">
+        <input type="range" name="range" id="myProgressBar" min="0" value="0" max="100">
+        <div class="icons">
+            <!-- fontawesome icons -->
+            <i class="fa-1x fa-solid fa-backward-step" id="previous"></i>
+            <i class="fa-1x fa-regular fa-circle-play" id="masterPlay"></i>
+            <i class="fa-1x fa-solid fa-forward-step" id="next"></i>
+        </div>
+        <div class="songInfo">
+            <img src="playing.gif" alt="" id="gif">
+            <span id="masterSongName">Chandra</span>
+        </div>
+    </div>
+    <script src="script.js"></script>
+    <script src="https://kit.fontawesome.com/de0c60a255.js" crossorigin="anonymous"></script>
+</body>
+
+</html>

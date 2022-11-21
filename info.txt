@@ -1,0 +1,4 @@
+Finish Date - 25/10/2022
+Things to work
+1) playing another song after completion of currrent one 
+2) puase button on labels
